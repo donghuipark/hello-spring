@@ -50,7 +50,7 @@ jobs:
         rm: false
 
     - name: execute shell script
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssh-action@v0.1.7
       with:
         host: ${{ secrets.SSH_IP }}
         username: ${{ secrets.SSH_ID }}
